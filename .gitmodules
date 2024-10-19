@@ -1,0 +1,6 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/SunkaraboinaPraveenKumar/Image_Ai_FrontEnd
+[submodule "backend"]
+	path = backend
+	url = https://github.com/SunkaraboinaPraveenKumar/Image_AI_Backend
