@@ -41,17 +41,18 @@ A full-stack application that utilizes Hugging Face's model for generating image
 Navigate to the project directory:
 
 
-cd image-generation-app
-Install dependencies for the frontend:
-
-
 cd frontend
-npm install
-Install dependencies for the backend:
 
+2. Install dependencies for the frontend:
+   ```bash
+   npm install
 
 cd backend
-npm install
+
+3. Install dependencies for the backend:
+   ```bash
+   npm install
+
 Configure environment variables for the backend:
 
 Create a .env file in the backend directory and add your Firebase and Hugging Face API credentials.
@@ -60,14 +61,18 @@ To start the development servers:
 
 For the frontend:
 
-cd frontend
-npm run dev
+1. 
+   ```bash
+   cd frontend
+   npm run dev
 
 For the backend:
 
+1. 
+   ```bash
+   cd backend
+   npm start
 
-cd backend
-npm start
 Access the application in your browser at http://localhost:5173 (frontend) and the backend API at http://localhost:8080/api/v1/dalle.
 
 API Endpoints
