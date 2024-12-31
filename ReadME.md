@@ -1,10 +1,6 @@
-Here’s a clean and neat README file for your full-stack image generation application:
-
-markdown
-Copy code
 # Image Generation App
 
-A full-stack application that utilizes Hugging Face's model for generating images based on user prompts. 
+A full-stack application that utilizes Hugging Face's model for generating images based on user prompts.
 
 ## Table of Contents
 
@@ -38,63 +34,66 @@ A full-stack application that utilizes Hugging Face's model for generating image
 1. Clone the repository:
    ```bash
    git clone https://github.com/SunkaraboinaPraveenKumar/Ai_Image_gen.git
-Navigate to the project directory:
-
-
-cd frontend
-
-2. Install dependencies for the frontend:
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd frontend
+   ```
+3. Install dependencies for the frontend:
    ```bash
    npm install
-
-cd backend
-
-3. Install dependencies for the backend:
+   ```
+4. Navigate to the backend:
+   ```bash
+   cd backend
+   ```
+5. Install dependencies for the backend:
    ```bash
    npm install
+   ```
+6. Configure environment variables for the backend:
+   Create a .env file in the backend directory and add your Firebase and Hugging Face API credentials.
 
-Configure environment variables for the backend:
+## Usage
 
-Create a .env file in the backend directory and add your Firebase and Hugging Face API credentials.
-Usage
 To start the development servers:
 
 For the frontend:
-
-1. 
    ```bash
    cd frontend
    npm run dev
-
+   ```
 For the backend:
-
-1. 
    ```bash
    cd backend
    npm start
+   ```
 
-Access the application in your browser at http://localhost:5173 (frontend) and the backend API at http://localhost:8080/api/v1/dalle.
+Access the application in your browser at [http://localhost:5173](http://localhost:5173) (frontend) and the backend API at [http://localhost:8080/api/v1/dalle](http://localhost:8080/api/v1/dalle).
 
-API Endpoints
+## API Endpoints
 
-POST /api/v1/dalle - Generate an image based on a prompt.
+- `POST /api/v1/dalle` - Generate an image based on a prompt.
 
-Frontend
+## Frontend
 
 The frontend is built with React and styled using Tailwind CSS. It communicates with the backend API to generate and display images.
 
-Backend
+## Backend
 
 The backend is built with Express and utilizes the Hugging Face inference API to generate images based on user input. All generated images are stored in Firebase.
 
-Deployment
+## Deployment
 
 Frontend: https://image-ai-front-end.vercel.app/
 
 Backend: https://image-ai-backend-five.vercel.app/api/v1/dalle
 
-Contributing
+## Contributing
+
 Feel free to submit issues or pull requests if you would like to contribute to this project.
 
-License
+## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
+
